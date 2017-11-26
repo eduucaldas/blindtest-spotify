@@ -8,7 +8,7 @@ import Sound from 'react-sound';
 import Button from './Button';
 
 //Gotta change this whenever you test
-const apiToken = 'BQAsUNI5912fOCdHKYDEGRvm_WC4VsB0r1sFYqkfTKBqfTb15hFYc7eBiDte-I0TEbxOyjUPieewAUqo3jNrrikTnJhZD0073Y4EFMhLgHBPF_ggUYSg1X3SnhK3bUu8SpEZax_2jDi9KuB8oTyBYpY';
+const apiToken = 'BQAc-xch1h0jKgLBs2q2hdI3Znt12zEyxsHZ73wGmEUoLySxzR8ApHBezrIK2dOQEtJSsyTTOyKAtL2gFlWVnKXgWny5whkJsN6hieb9PPQnjOhk3F91UEQfLPsEmoFJWTx3yMH7LaYG31s85msaDcY';
 
 
 
@@ -70,7 +70,7 @@ class App extends Component {
         text: "" + data.items.length,
         tracks: data.items,
         songsLoaded: true,
-        currentTrack: data.items[getRandomNumber(data.items.length)],
+        a.items[getRandomNumber(data.items.length)],
         timeout: setTimeout(this.retry.bind(this), 30000)
       });
     })
@@ -142,3 +142,4 @@ class App extends Component {
 }
 
 export default App;
+
