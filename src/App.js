@@ -70,7 +70,7 @@ class App extends Component {
         text: "" + data.items.length,
         tracks: data.items,
         songsLoaded: true,
-        a.items[getRandomNumber(data.items.length)],
+        currrentTrack: data.items[getRandomNumber(data.items.length)],
         timeout: setTimeout(this.retry.bind(this), 30000)
       });
     })
